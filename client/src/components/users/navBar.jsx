@@ -10,7 +10,6 @@ import {
     Menu,
 } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import Logo from "../../assets/Logo/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import axios from "axios";
@@ -272,7 +271,7 @@ function NavBarUser() {
                 <div style={styles.container}>
                     <div style={styles.menuContainer}>
                         <Link to="/">
-                            <img src={Logo} alt="logo" style={styles.logo} />
+                            <img src="https://i.ibb.co/Fwzb5Cp/logo.png" alt="logo" style={styles.logo} />
                         </Link>
                         <Menu
                             style={{
